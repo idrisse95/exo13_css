@@ -1,0 +1,70 @@
+#global{
+    color: white;
+    margin: 1px auto;
+}
+
+#sec1{
+    width: 800px;
+    display: flex;
+}
+#sec1 div div{
+    width: 500px;
+    margin: 5px;
+}
+
+div>div{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: red;
+    padding: 20px;
+    
+}
+
+#sec2{
+    width: 800px;
+    display: flex;
+}
+#sec2 div:nth-child(2){
+    display: flex;
+}
+#sec2 div>div{
+    margin: 5px;
+    width: 500px;
+}
+
+
+
+#sec3{
+    width: 800px;
+    display: flex;
+}
+
+#sec3 div:nth-child(1){
+    display: flex;
+    
+}
+#sec3 div>div{
+    margin: 5px;
+}
+
+#sec3 div:nth-child(1)>div{
+    width: 60px;
+}
+
+#sec3 div:nth-child(2)>div{
+    width: 850%;
+}
+
+
+
+table td{
+    background-color: red;
+    
+}
+table{
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-spacing: 5px;
+}
